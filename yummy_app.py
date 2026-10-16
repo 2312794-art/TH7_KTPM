@@ -50,7 +50,4 @@ class YummyApp:
             return RESTAURANTS_BY_LOCATION.get(location_key, [])
         except gps_service.GPSSignalLostError:
             return "Khong the xac dinh vi tri."
-        # Thêm hàm bị lỗi cú pháp ở cuối file yummy_app.py
-    def broken_linter_test_function():
-        if True:
-            print("Lỗi thiếu dấu hai chấm")
+      
